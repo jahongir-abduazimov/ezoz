@@ -36,7 +36,7 @@ function Form() {
 
     const payload = {
       chat_id: chatId,
-      text: `New client!\n\nName: ${name}\nPhone: ${phone}\nComment: ${comment}`,
+      text: `Янги мижоз!\n\nИсми: ${name}\nРақами: ${phone}\nИзоҳ: ${comment}`,
     };
     setLoading(true);
 
