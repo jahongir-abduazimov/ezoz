@@ -5,11 +5,11 @@ import { FaLocationDot } from "react-icons/fa6";
 const Contact = () => {
   return (
     <>
-      <section className="bg-[url('assets/contact.jpg')] min-h-[100vh] bg-no-repeat flex items-center justify-center w-full bg-center bg-cover">
+      <section className="bg-[url('assets/contact.jpg')] min-h-[100vh] bg-no-repeat flex md:items-center w-full bg-center bg-cover">
         <div className="fixed top-0 left-0 w-full h-full backdrop-blur-sm bg-black/40" />
         <div className="relative z-30 w-full h-full">
           <div className="w-full max-w-[1350px] px-[15px] mx-auto flex justify-center items-center overflow-hidden">
-            <div className="flex flex-col-reverse items-center md:flex-row h-full w-full justify-between gap-10 lg:space-y-0 pb-[40px]">
+            <div className="flex flex-col-reverse items-center md:flex-row h-full w-full justify-between gap-10 lg:space-y-0 pt-[30px] md:pt-0 pb-[40px]">
               <Form />
               <div className="text-white w-auto text-center lg:text-left">
                 <h2 className="text-4xl lg:text-6xl font-bold mb-10 md:mb-16 leading-8 max-sm:text-3xl">
