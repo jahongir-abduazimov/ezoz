@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="fixed top-0 left-0 w-full h-full backdrop-blur-sm bg-black/40" />
         <div className="relative z-30 w-full h-full">
           <div className="w-full max-w-[1350px] px-[15px] mx-auto flex justify-center items-center overflow-hidden">
-            <div className="flex flex-col-reverse items-center md:flex-row h-full w-full justify-between gap-10 lg:space-y-0 pt-[30px] md:pt-0 pb-[40px]">
+            <div className="flex flex-col-reverse items-center md:flex-row h-full w-full justify-between gap-10 lg:space-y-0 pt-[30px] md:pt-0 pb-[40px] md:pb-0">
               <Form />
               <div className="text-white w-auto text-center lg:text-left">
                 <h2 className="text-4xl lg:text-6xl font-bold mb-10 md:mb-16 leading-8 max-sm:text-3xl">
