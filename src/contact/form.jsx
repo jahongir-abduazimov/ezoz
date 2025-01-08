@@ -24,7 +24,7 @@ function Form() {
     setNameError("");
     setPhoneError("");
     if (!name) {
-      setNameError("Исмингизни киритунг!");
+      setNameError("Исмингизни киритинг!");
       hasError = true;
     }
     if (!phone) {
@@ -61,7 +61,7 @@ function Form() {
     if (name.target.value) {
       setNameError("");
     } else {
-      setNameError("Исмингизни киритунг!");
+      setNameError("Исмингизни киритинг!");
     }
   };
 
