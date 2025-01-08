@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.bg_btn {
+  background: linear-gradient(to right, #ff9800, #f44336); /* Yorqin gradient */
+  color: white; /* Matn rangi */
+  padding: 15px 20px; /* Tugmaning ichki bo'sh joylari */
+  font-size: 16px; /* Matn o'lchami */
+  font-weight: medium; /* Matn qalinligi */
+  margin-top: 10px;
+  font-family: "Arial", sans-serif; /* Shrift stili */
+  border: none; /* Chegara */
+  border-radius: 25px; /* Burchaklarni yumaloqlash */
+  cursor: pointer; /* Ko'rsatkichni qo'rsatish */
+  box-shadow: 0 8px 20px rgba(255, 87, 34, 0.5); /* Yorqin soya */
+  transition: all 0.3s ease; /* Animatsiya */
+  position: relative; /* Animatsiya uchun pozitsiya */
+  overflow: hidden; /* Tashqi animatsiyani yashirish */
+}
+
+.bg_btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.5) 10%,
+    transparent 50%
+  );
+  transform: rotate(45deg);
+  transition: left 0.6s ease-out;
+}
+
+.bg_btn::before {
+  left: 100%;
+}
+
+.bg_btn:hover {
+  transform: translateY(-3px); /* Hoverda tugmani biroz ko'tarish */
+  box-shadow: 0 12px 30px rgba(255, 87, 34, 0.7); /* Tugma soyasini kuchaytirish */
+}
+
+.bg_btn:active {
+  transform: translateY(2px); /* Tugmani bosilganda pasaytirish */
+  box-shadow: 0 6px 15px rgba(255, 87, 34, 0.5); /* Tugma soyasini pasaytirish */
+}
