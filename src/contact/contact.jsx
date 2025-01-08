@@ -24,6 +24,13 @@ const Contact = () => {
                       />
                       <a href="tel:+998950070008">+998 95 007 00 08</a>
                     </div>
+                    <div className="flex items-center gap-3 lg:justify-start lg:text-[24px]">
+                      <FaPhoneAlt
+                        color="#f48c06"
+                        className="text-[28px] md:text-[36px]"
+                      />
+                      <a href="tel:+998946880008">+998 94 688 00 08</a>
+                    </div>
                     <a
                       href="https://www.google.com/maps/place/Kichik+Xalqa+Yo'li+88,+%D0%A2%D0%BEshkent,+Toshkent,+%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD/@41.27028,69.2634689,17.83z/data=!4m5!3m4!1s0x38ae8aa1f68af145:0xcd5946e4ed42be38!8m2!3d41.2703197!4d69.2648999?authuser=0&entry=ttu&g_ep=EgoyMDI1MDEwMi4wIKXMDSoASAFQAw%3D%3D"
                       target="_blank"
